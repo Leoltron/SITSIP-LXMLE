@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Layout редактор</string>
+    <string name="action_settings">Настройки</string>
+    <string name="New">Новый</string>
+    <string name="Open">Открыть</string>
+    <string name="Save">Сохранить</string>
+    <string name="ViewXMLCode">Просмотреть XML код</string>
+    <string name="Confirm">Подтвердить</string>
+    <string name="Cancel">Отмена</string>
+    <string name="Add">Добавить</string>
+    <string name="select_view">Выберите View</string>
+    <string name="apply">Применить</string>
+    <string name="cancel">Отмена</string>
+    <string name="custom">Численный размер:</string>
+    <string name="delete">Удалить View</string>
+    <string name="select_view_group">Выберите контейнер для View</string>
+    <string name="viewProperties">Параметры View</string>
+    <string name="properties">параметры</string>
+    <string name="switchToScreenView">Переключить на вид экрана</string>
+    <string name="switchToTreeView">Переключить на вид дерева</string>
+    <string name="layoutCleared">Layout очищен</string>
+    <string name="confirm_clear">Очистить layout?</string>
+    <string name="no">Нет</string>
+    <string name="yes">Да</string>
+    <string name="clear">Очистить</string>
+</resources>

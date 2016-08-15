@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:id="@+id/scrollView"
+            android:layout_weight="1">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/propertiesLL">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/LayoutParamsWidthLL">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="layout_width"
+                        android:id="@+id/widthTV"
+                        android:gravity="center_horizontal"
+                        android:textColor="@color/abc_primary_text_material_light" />
+
+                    <RadioGroup
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:id="@+id/widthSizeTypeRG">
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="match_parent"
+                            android:id="@+id/widthMatchParentRB"
+                            android:checked="true" />
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="wrap_content"
+                            android:id="@+id/widthWrapContentRB"
+                            android:checked="false" />
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/custom"
+                            android:id="@+id/widthCustomSizeRB"
+                            android:checked="false" />
+                    </RadioGroup>
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:id="@+id/widthCustomSizeLL"
+                        android:layout_marginRight="5dp">
+
+                        <EditText
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:inputType="number"
+                            android:ems="10"
+                            android:id="@+id/widthEditText"
+                            android:layout_weight="1" />
+
+                        <RadioGroup
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal">
+
+                            <RadioButton
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="dp"
+                                android:id="@+id/widthDPRB"
+                                android:checked="true"
+                                android:layout_weight="0"
+                                android:layout_gravity="center_vertical" />
+
+                            <RadioButton
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="px"
+                                android:id="@+id/widthPXRB"
+                                android:checked="false"
+                                android:layout_weight="0"
+                                android:layout_gravity="center_vertical" />
+                        </RadioGroup>
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/LayoutParamsHeightLL">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="layout_height"
+                        android:id="@+id/heightTV"
+                        android:gravity="center_horizontal"
+                        android:textColor="@color/abc_primary_text_material_light" />
+
+                    <RadioGroup
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:id="@+id/heightSizeTypeRG">
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="match_parent"
+                            android:id="@+id/heightMatchParentRB"
+                            android:checked="true" />
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="wrap_content"
+                            android:id="@+id/heightWrapContentRB"
+                            android:checked="false" />
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/custom"
+                            android:id="@+id/heightCustomSizeRB"
+                            android:checked="false" />
+                    </RadioGroup>
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:id="@+id/heightCustomSizeLL"
+                        android:layout_marginRight="5dp">
+
+                        <EditText
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:inputType="number"
+                            android:ems="10"
+                            android:id="@+id/heightEditText"
+                            android:layout_weight="1" />
+
+                        <RadioGroup
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal">
+
+                            <RadioButton
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="dp"
+                                android:id="@+id/heightDPRB"
+                                android:checked="true"
+                                android:layout_weight="0"
+                                android:layout_gravity="center_vertical" />
+
+                            <RadioButton
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="px"
+                                android:id="@+id/heightPXRB"
+                                android:checked="false"
+                                android:layout_weight="0"
+                                android:layout_gravity="center_vertical" />
+                        </RadioGroup>
+
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="@string/delete"
+                android:id="@+id/deleteViewButton"
+                android:layout_weight="1"
+                android:background="@color/background_material_light" />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="@string/Cancel"
+                android:id="@+id/cancelVPButton"
+                android:layout_weight="1"
+                android:background="@color/background_material_light" />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="@string/apply"
+                android:id="@+id/applyVPButton"
+                android:layout_weight="1"
+                android:background="@color/background_material_light" />
+        </LinearLayout>
+
+    </LinearLayout>
+</RelativeLayout>

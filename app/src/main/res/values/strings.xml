@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Layout Editor</string>
+    <string name="action_settings">Settings</string>
+    <string name="New">New</string>
+    <string name="Open">Open</string>
+    <string name="Save">Save</string>
+    <string name="Cancel">Cancel</string>
+    <string name="Confirm">Confirm</string>
+    <string name="Add">Add</string>
+    <string name="select_view">Select view</string>
+    <string name="ViewXMLCode">View XML code</string>
+    <string name="viewProperties">View properties</string>
+    <string name="cancel">Cancel</string>
+    <string name="apply">Apply</string>
+    <string name="select_view_group">Select ViewGroup</string>
+    <string name="delete">Delete View</string>
+    <string name="custom">Custom size:</string>
+    <string name="properties">properties</string>
+    <string name="switchToScreenView">Switch to screen view</string>
+    <string name="switchToTreeView">Switch to tree view</string>
+    <string name="layoutCleared">Layout cleared</string>
+    <string name="no">No</string>
+    <string name="yes">Yes</string>
+    <string name="confirm_clear">Clear layout?</string>
+    <string name="clear">Clear</string>
+</resources>

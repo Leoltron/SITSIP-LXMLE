@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group
+        android:id="@+id/groupScreenViewType">
+        <item
+            android:id="@+id/action_screen_view_type"
+            android:icon="@drawable/ic_smartphone_white_48dp"
+            android:title="@string/switchToScreenView"
+            app:showAsAction="always"/>
+    </group>
+
+    <group
+        android:id="@+id/groupTreeViewType">
+        <item
+            android:id="@+id/action_tree_view_type"
+            android:icon="@drawable/ic_list_white_48dp"
+            android:title="@string/switchToTreeView"
+            app:showAsAction="always"/>
+    </group>
+
+    <group
+        android:id="@+id/groupFile">
+    <item
+        android:id="@+id/action_new"
+        android:icon="@drawable/abc_ic_clear_mtrl_alpha"
+        android:title="@string/clear"
+        app:showAsAction="always"/>
+
+        <item
+            android:id="@+id/action_view_xml"
+            android:icon="@drawable/ic_code_white_48dp"
+            android:title="@string/ViewXMLCode"
+            app:showAsAction="always"/>
+        <item
+            android:id="@+id/action_add"
+            android:icon="@drawable/ic_add_white_48dp"
+            android:title="@string/Add"
+            app:showAsAction="always"/>
+    </group>
+
+    <group
+        android:id="@+id/groupConfirm">
+        <item
+            android:id="@+id/action_confirm"
+            android:icon="@drawable/ic_done_white_48dp"
+            android:title="@string/Confirm"
+            app:showAsAction="always"/>
+    </group>
+
+    <group
+        android:id="@+id/groupCancel">
+        <item
+            android:id="@+id/action_cancel"
+            android:icon="@drawable/abc_ic_clear_mtrl_alpha"
+            android:title="@string/Cancel"
+            app:showAsAction="always"/>
+    </group>
+</menu>
